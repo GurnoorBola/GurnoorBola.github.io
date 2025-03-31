@@ -704,6 +704,22 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.circle {
+			width: 150px;  /* Adjust the size of the circle */
+			height: 150px; /* Ensure height is the same as width */
+			border-radius: 50%; /* Makes the image round */
+			display: block; /* Make the image a block-level element */
+			margin-left: auto; /* Horizontally centers the image */
+			margin-right: auto; /* Horizontally centers the image */
+			margin-bottom: 40px;
+			overflow: hidden; /* Ensures the image doesn't overflow its container */
+		}
+			
+		.image.circle img {
+			width: 100%; /* Ensure the image scales to fit the container */
+			height: 100%; /* Ensure the image scales to fit the container */
+			object-fit: cover; /* Ensures the image covers the circle area, cropping if necessary */
+		}
 		@media screen and (max-width: 736px) {
 
 			.image.main {
@@ -1140,9 +1156,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
