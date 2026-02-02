@@ -24,3 +24,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-redirect-from
+
+umami_website_id: 6302ff90-740f-4334-9ae6-2e73df2307dd
+umami_url: "https://cloud.umami.is"
+
