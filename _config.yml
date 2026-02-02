@@ -3,7 +3,7 @@ url: https://gurnoorbola.github.io # root address of the site
 email: gbola@ucsd.edu 
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  stuff i'm working on and blog 
+  cool stuff i'm working on and blog 
 
 permalink: /:slug.html
 
