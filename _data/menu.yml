@@ -1,0 +1,21 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: projects
+    entries:
+      - title: "ultra GameBoy Advance emulator **WIP** <a href='https://github.com/GurnoorBola/uGBA'>repo</a>"
+      - title: "lox interpreter **WIP** <a href='https://github.com/GurnoorBola/lox-interpreter'>repo</a>"
+      - title: "NACHO Chip-8 emulator <a href='https://github.com/GurnoorBola/nacho'>repo</a>"
+      - title: "Voxel Engine <a href='https://gurnoorbola.github.io/CSE-160/asg4/asg4.html'>repo</a>"
+
+
+  - title: blog posts 
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  - title: rss
+    url: feed.xml
